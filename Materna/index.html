@@ -25,7 +25,7 @@
     <div class="bg-cover bg-center h-screen" style="background-image: url('./utilities/background.svg');">
         <div class="py-3 ps-60 pe-10">
             <div class="flex justify-between px-4 border py-2 text-white bg-red-600 border-red-600">
-                <div class="flex gap-4">
+                <div class="flex gap-4 items-baseline">
                     <a class="" href="#portfolio">Portfolio</a>
                     <a class="" href="#Industries">Industries</a>
                     <a class="" href="#Customers">Customers</a>
@@ -47,12 +47,24 @@
             </div>
             <div>
                 <div class="flex gap-10 ">
-                    <p class="border-4 border-white w-44 h-40 bg-red-600 text-white "
-                        style="background-image: url('./utilities/flex1.jpeg');">Portfolio</p>
-                    <p class="border-4 border-white w-44 h-40 bg-red-600 text-white"
-                        style="background-image: url('./utilities/flex2.jpeg');">About us</p>
-                    <p class="border-white border-4 w-44 h-40 bg-red-600 text-white"
-                        style="background-image: url('./utilities/flex3.jpeg');">Careers</p>
+                    <div class="relative">
+                        <img class=" border-8 border-white" src="./utilities/flex1.jpeg">
+                        <div class="border bg-red-600">
+                            <p class="absolute top-40 text-white ps-16">Portfolio</p>
+                        </div>
+                    </div>
+                    <div class="relative">
+                        <img class=" border-8 border-white" src="./utilities/flex2.jpeg">
+                        <div class="border bg-red-600">
+                            <p class="absolute top-40 text-white ps-16">About Us</p>
+                        </div>
+                    </div>
+                    <div class="relative">
+                        <img class=" border-8 border-white" src="./utilities/flex3.jpeg">
+                        <div class="border bg-red-600">
+                            <p class="absolute top-40 text-white ps-16">Careers</p>
+                        </div>
+                    </div>
                 </div>
 
             </div>
@@ -74,7 +86,7 @@
                     <h1 class="text-red-600 hover:underline">We accompany your Journey2Cloud</h1>
                     <p class="mt-4">We analyze your application landscapes and transfer them step by step into a
                         sustainable model</p>
-                    <div class="mt-20 ps-44">
+                    <div class="mt-14 ps-44">
                         <button class="border bg-red-800 px-3 py-2 text-white font-sans">More > </button>
                     </div>
                 </div>
@@ -91,7 +103,7 @@
                     <p class="mt-4">Our cyber services help you before, during and after any damage might occur by
                         providing
                         secure applications development, protection for your IT and information security.</p>
-                    <div class="mt-20 ps-44">
+                    <div class="mt-8 ps-44">
                         <button class="border bg-red-800 px-3 py-2 text-white font-sans">More > </button>
                     </div>
                 </div>
@@ -107,7 +119,7 @@
                     <h1 class="text-red-600 hover:underline">Enterprise Service Management</h1>
                     <p class="mt-4 ">Benefit from the market leader for service management. More than 1,000 customers
                         across all sectors.</p>
-                    <div class="mt-20 ps-44">
+                    <div class="mt-[21] ps-44">
                         <button class="border bg-red-800 top-20 px-3 py-2 text-white font-sans">More > </button>
                     </div>
                 </div>
@@ -123,7 +135,7 @@
                     <h1 class="text-red-600 hover:underline">IoT-based services for manufacturing</h1>
                     <p class="mt-4 ">Materna’s technology expertise helps companies to develop their business processes
                         further enabling them to enter new markets.</p>
-                    <div class="mt-20 ps-44">
+                    <div class="mt-12 ps-44">
                         <button class="border bg-red-800 px-3 py-2 text-white font-sans">More > </button>
                     </div>
                 </div>
@@ -139,26 +151,84 @@
                 <img src="./utilities/center.png">
             </div>
             <div class="relative px-3">
-                <a class="text-red-600 text-2xl hover:underline" href="#">Denver International Airport with automated baggage check-in</a>
-                <p class="mt-4">Denver International Airport has automated baggage check-in for its passengers as part of its comprehensive
-                    Great Hall redevelopment project. Materna IPS installed 86 bag drop machines and launched them in cooperation
+                <a class="text-red-600 text-2xl hover:underline" href="#">Denver International Airport with automated
+                    baggage check-in</a>
+                <p class="mt-4">Denver International Airport has automated baggage check-in for its passengers as part
+                    of its comprehensive
+                    Great Hall redevelopment project. Materna IPS installed 86 bag drop machines and launched them in
+                    cooperation
                     with United Airlines and Southwest Airlines - the largest self bag drop installation in the US.
                 </p>
                 <div class="ps-64">
-                <button class="bg-red-700 text-white px-2 py-2 absolute font-sans top-64">More about Self Bag Drop Project</button>
+                    <button class="bg-red-700 text-white px-2 py-2 absolute font-sans top-64">More about Self Bag Drop
+                        Project</button>
                 </div>
             </div>
         </div>
-        <div class="grid grid-cols-4 py-4">
+        <div class="grid grid-cols-4 pt-4 pb-16 gap-4">
             <img src="./utilities/center.png">
             <img src="./utilities/financial service.jpeg">
             <img src="./utilities/person.jpeg">
             <img src="./utilities/robot.jpeg">
         </div>
-        </div>
+    </div>
     </div>
 
-    
+    <div class="bg-[rgb(66,63,63)]">
+        <div class="flex justify-between px-16 text-white">
+            <div class="grid grid-cols-4 mt-20 gap-14">
+                <div>
+                    <a class="hover:underline font-mono text-xl" href="#">Portolio</a>
+                    <div class="font-thin text-sm py-3">
+                        <a class="hover:underline" href="#">Focus Areas</a><br>
+                        <a class="hover:underline" href="#">Competencies</a><br>
+                        <a class="hover:underline" href="#">technologies</a><br>
+                        <a class="hover:underline" href="#">Industries</a>
+                    </div>
+                </div>
+                <div class="">
+                    <a class="hover:underline font-mono text-xl">About us</a>
+                    <div class="text-sm py-3 font-light ">
+                        <a class="hover:underline ">Materna Group</a><br>
+                        <a class="hover:underline">Management</a><br>
+                        <a class="hover:underline">Locations</a><br>
+                        <a class="hover:underline">Partners</a><br>
+                        <a class="hover:underline">Sutainability and CSR</a><br>
+                        <a class="hover:underline">Research and Development</a>
+                    </div>
+                </div>
+                <div>
+                    <a class="hover:underline font-mono text-xl">Customers</a>
+                    <div class="text-sm  font-thin py-3">
+                        <a class="hover:underline text-sm py-3 font-thin">customers</a>
+                    </div>
+                </div>
+                <div>
+                    <a class="hover:underline font-mono text-xl">Careers</a>
+                    <div class="text-sm  font-thin py-3">
+                        <a class="hover:underline">careers</a>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-20">
+                <a class="hover:underline font-mono text-xl">Services</a>
+                <div class="text-sm py-3 font-thin ">
+                    <a class="hover:underline">Materna Support</a><br>
+                    <a class="hover:underline">Contact</a><br>
+                    <a class="hover:underline">Imprint & Copyright</a><br>
+                    <a class="hover:underline">Compliance at Materna</a><br>
+                    <a class="hover:underline">Data Privacy Statement</a><br>
+                    <a class="hover:underline">Data Privacy information for customers</a><br>
+                    <a class="hover:underline">Data Privacy information for suppliers</a><br>
+                    <a class="hover:underline">Sitemap</a>
+                </div>
+            </div>
+
+        </div>
+        <div class="mt-20 border border-dotted border-black text-white py-10">
+            <p class="ps-20">Materna 2024</p>
+        </div>
+    </div>
 </body>
 </body>
 
