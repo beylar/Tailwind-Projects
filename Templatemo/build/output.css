@@ -738,6 +738,10 @@ video {
   gap: 20rem;
 }
 
+.gap-10 {
+  gap: 2.5rem;
+}
+
 .rounded-2xl {
   border-radius: 1rem;
 }
@@ -766,6 +770,11 @@ video {
 .rounded-t-\[200px\] {
   border-top-left-radius: 200px;
   border-top-right-radius: 200px;
+}
+
+.rounded-t-\[100px\] {
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
 }
 
 .border {
@@ -880,6 +889,16 @@ video {
   padding-bottom: 2rem;
 }
 
+.px-1 {
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
+
+.py-12 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
 .pb-10 {
   padding-bottom: 2.5rem;
 }
@@ -978,9 +997,31 @@ video {
   .sm\:mt-10 {
     margin-top: 2.5rem;
   }
+
+  .sm\:flex-wrap {
+    flex-wrap: wrap;
+  }
+
+  .sm\:gap-5 {
+    gap: 1.25rem;
+  }
+
+  @media (min-width: 768px) {
+    .sm\:md\:flex {
+      display: flex;
+    }
+  }
 }
 
 @media (min-width: 768px) {
+  .md\:absolute {
+    position: absolute;
+  }
+
+  .md\:mt-20 {
+    margin-top: 5rem;
+  }
+
   .md\:flex {
     display: flex;
   }
@@ -993,7 +1034,21 @@ video {
     width: 18rem;
   }
 
+  .md\:gap-80 {
+    gap: 20rem;
+  }
+
+  .md\:rounded-t-\[200px\] {
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
+  }
+
   .md\:border {
     border-width: 1px;
+  }
+
+  .md\:py-16 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
   }
 }
